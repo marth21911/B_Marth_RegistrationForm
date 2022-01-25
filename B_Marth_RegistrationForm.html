@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <form action="/process" method="post"><div>First Name *<input type="text" name="First Name"></div>
+        <div>Last Name  *<input type="text" name="Last Name"></div>
+        <div>Email Address *<input type="email" name="Email Address"></div>
+        <div>Password *<input type="password" name="password"></div>
+        <div>Confirm Password *<input type="password" name="password"></div>
+        <div>Birthday  <input type="date" name="date"></div>
+        <div>Gender Identity</div>
+        <div><input type="radio" name="font" value="Male" id="normal">
+        <label for="Male">Male</label>
+        <input type="radio" name="font" value="Female" id="normal">
+        <label for="Female">Female</label>
+        <input type="radio" name="font" value="Non-Binary" id="normal">
+        <label for="Non-Binary">Non-Binary</label>
+        <input type="radio" name="font" value="IPNTA" id="normal">
+        <label for="IPNTA">I prefer not to answer</label> </div>
+        <div>A short description about myself</div>
+        <div><textarea name="comment" cols="20" rows="3"></textarea></div>
+        <div>Favorite Language: <select name="Favorite Language">
+            <option>JavaScript</option>
+            <option>Klingonn</option>
+            <option>C#</option>
+            <option>Time Lord</option>
+        </select></div>
+        <div><input type="checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates<label></div>
+                <input type="submit" value="Create Account"
+                >
+            </form>
+        * Indicates a required field
+</body>
+</html>
